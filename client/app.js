@@ -1,3 +1,8 @@
+
+import {voteTakeout} from './score.js';
+import {voteLeftovers} from './score.js';
+import {getWinner} from './score.js';
+
 const winnerText = document.getElementById("winner");
 const leftoversBtn = document.getElementById("leftovers");
 const takeoutBtn = document.getElementById("takeout");
